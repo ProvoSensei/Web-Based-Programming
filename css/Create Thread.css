@@ -1,0 +1,487 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+a:link {
+    text-decoration: none !important;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 10px 10px;
+  position: sticky;
+  height: 100px;
+}
+
+.background{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 20%;
+    color: white;
+    margin-left: 550px; 
+    text-align: center;
+    border: 2px #FFA500 solid;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: #FFA500;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header .logo {
+  width: 8%;
+  height: 60px;
+  float: left;
+  margin-right: 300px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.header a:hover {
+  color: #FFA500;
+}
+
+.header a.active {
+  border: none;
+  background-color: #FFA500;
+}
+
+.header-right {
+  float: left;
+  
+}
+
+.header #button{
+    border: 2px solid #FFA500;
+    background-color: #FFA500;
+    border-radius: 10px;
+    color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.header #button:hover{
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+.header-button{
+    float: right;
+    position: relative;
+    left: -30px;
+}
+
+#form-div {
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:35px;
+    padding-bottom:10px;
+    width: 500px;
+    float: left;
+    left: 50%;
+    position: absolute;
+    margin-top:60px;
+    margin-left: -280px;
+    margin-bottom: 30px;
+    -moz-border-radius: 7px;
+    border: 3px solid #FFA500;
+    -webkit-border-radius: 7px;
+}
+
+#line{
+    background-color: #FFA500;
+    height: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+    transition: 0.8s ease;
+}
+
+#line-limit{
+    width: 18%;
+    float: left;
+    height: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFA500;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+    -ms-transition: 0.8s ease;
+    transition: 0.8s ease;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin-left: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFA500;
+    width: 80px;
+    z-index: 1;
+    margin-left: -2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 20%;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+    border: 2px solid #FFA500;
+}
+
+.show {
+    display: block;
+}
+
+.main {
+  width: 100%
+  height 100%;
+}
+
+.kotakform {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 2%;
+  background-color: #FFA500;  
+}
+
+.create_thread {
+  width: 100%;
+  height: 10%;
+}
+
+.text_create_thread {
+  margin-left: 12%;
+  font-size: 32px;
+  border-bottom: 2px solid #F7931E !important;
+  padding-bottom: 2px;
+  width: 14%;
+}
+
+form {
+  margin: 20px 15px;
+}
+
+select {
+    width: 90.1%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.kotakupload {
+  width: 99.9%;
+  height: 20%;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 7px;
+}
+
+.teks_cover {
+   margin: 6% 45% 0% 48%;
+   width: 11.5%;
+}
+
+input[type=file] {
+  margin-left: 45%;
+  margin-top: 1% !important;
+  margin-bottom: 6%;
+}
+
+input[type=text] {
+  width: 99.8%;
+  margin-top: 7px;
+  padding: 16px 0px;
+}
+
+textarea {
+  width: 99.5%;
+  margin-top: 7px;
+  margin-bottom: 3px;
+}
+
+#create {
+  color: black;
+  background-color: white;
+  padding: 16px 28px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: center;
+  margin-left: 48%;
+  border: 1px solid #FFA500;
+  margin-top: 0px !important;
+  margin-bottom: 25px !important;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #FFA500;  
+  width: 100%;
+}
+
+.footer a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+.to_top{
+    position: fixed;
+    right: 10px;
+    cursor: pointer;
+    bottom: 10px;
+}
+
+.to_top img {
+    height: 7%;
+    width: 14%;
+    margin-left: 85.5%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 5 5 2px grey; 
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFA500;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFA500; 
+    height: 5px;
+}
+
+@media screen and (max-width: 580px) {
+    .header #line{
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header {
+      overflow: show;
+      background-color: #fff;
+      padding: 10px 10px;
+      position: sticky;
+      height: 420px;
+    }
+
+    .title #line-limit{
+        float: none;
+        display: block;
+        width: 100%;
+        position: relative;
+        left: -50px;
+        top: -100px;
+    }
+    .title h2{
+        position: relative;
+        left: -50px;
+        top: -100px;
+        display: block;
+        text-align: center;
+    }
+    .header-button{
+        float: left;
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .dropdown-content {
+        position: relative;
+        background-color: #FFA500;
+        width: 70px;
+        z-index: 1;
+        box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+        margin-top: 5%;
+        margin-left: 43%;
+    }
+
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        margin-left: -16%;
+    }
+
+    .main {
+      width: 100%
+      height 100%;
+    }
+
+    .kotakform {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top : 2%;
+      margin-bottom: 2%;
+      background-color: #FFA500;  
+    }
+
+    .create_thread {
+      width: 100%;
+      height: 10%;
+    }
+
+    .text_create_thread {
+      margin-left: 3%;
+      font-size: 32px;
+      border-bottom: 2px solid #F7931E !important;
+      padding-bottom: 2px;
+      width: 55%;
+    }
+
+    form {
+      margin: 20px 15px;
+    }
+
+    select {
+        width: 75.03%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+        border: 1px solid black;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .kotakupload {
+      width: 99.9%;
+      height: 20%;
+      border: 1px solid black;
+      background-color: white;
+      margin-top: 7px;
+    }
+
+    .teks_cover {
+       margin: 6% 25% 0% 35%;
+       width: 30%;
+    }
+
+    input[type=file] {
+      margin-left: 25%;
+      margin-top: 3% !important;
+      margin-bottom: 6%;
+    }
+
+    input[type=text] {
+      width: 99.8%;
+      margin-top: 7px;
+      padding: 16px 0px;
+    }
+
+    textarea {
+      width: 98.9%;
+      margin-top: 7px;
+      margin-bottom: 3px;
+    }
+
+    #create {
+      border: 1px solid #FFA500;
+      color: black;
+      background-color: white;
+      padding: 16px 28px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      text-decoration: none;
+      cursor: pointer;
+      margin: center;
+      margin-left: 33%;
+    }
+
+    .footer a{
+        float: none;
+        display: block;
+        text-align: justify;
+    }
+    .header #button{
+        float: left;
+        display: block;
+        text-align: center;
+        margin-top: 10px;    
+        position: relative;
+        left: 30px;
+        width: 150%;
+    }
+    .header .logo{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-left: 136px;
+        width: 30%;
+    }
+    .header a{
+        float: none;
+        display: block;
+        text-align: center;
+        position: relative;
+        left: 10px;
+    }
+    .header-right {
+        float: none;
+        display: block;
+        margin-top: 10px; 
+        text-align: center;
+    }
+}
