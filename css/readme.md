@@ -1,1 +1,1 @@
-Change this folder name into CSS
+Change this folder name into CSS.
