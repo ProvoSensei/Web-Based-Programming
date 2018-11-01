@@ -1,1 +1,1 @@
-Change the folder name into Foto
+Change the folder name into Foto.
