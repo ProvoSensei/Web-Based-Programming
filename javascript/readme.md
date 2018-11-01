@@ -1,1 +1,1 @@
-Change the folder name into Java Script
+Change the folder name into Java Script.
